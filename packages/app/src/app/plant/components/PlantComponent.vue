@@ -58,13 +58,13 @@
     z-index: 2;
 
     & .component-title {
-      display: flex;
+      display: bottom;
       align-items: center;
 
       & svg {
         width: var(--icon-size--small);
         height: var(--icon-size-small);
-        opacity: 0.5;
+        opacity: 10;
         margin-right: calc(var(--base-gap) / 3);
       }
     }
@@ -72,6 +72,6 @@
 
   .plant-component .component-content {
     display: flex;
-    width: 100%;
+    width: 90%;
   }
 </style>

@@ -3,7 +3,7 @@
     <main class="app-content">
       <form @submit.prevent>
         <label for="register-name" class="form-label-group">
-          <h2 class="required">What's your friends name?</h2>
+          <h2 class="required">plant name?</h2>
           <span />
           <input required
                  type="text"
@@ -15,7 +15,7 @@
 
         <label for="register-file" class="form-label-group">
           <h2>Upload photo</h2>
-          <span>You can either select a photo from your gallery or take one now.</span>
+          <span>You can select a photo from your gallery or take one now.</span>
           <file-upload
             name="register-file"
             @file-selected="getFile"
